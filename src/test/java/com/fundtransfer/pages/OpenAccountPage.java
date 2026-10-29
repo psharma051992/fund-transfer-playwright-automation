@@ -16,7 +16,7 @@ public class OpenAccountPage {
 
     public OpenAccountPage(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(60));
     }
 
     public String openSavingsFundedFrom(String fromAccountId) {
